@@ -96,7 +96,7 @@ cardsArray.forEach((objCard,index) => {
         setTimeout(()=>{
           secondImgId.classList.toggle('display');
           waitingCardImg.classList.toggle('display');
-        },1000)
+        },500)
         
         objCard.isOpen = false;
         waitingCardObject.isOpen = false; 
