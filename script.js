@@ -113,7 +113,6 @@ function flipCard(e){
   }
 }
 
-
 function resetWaiting(){
   waitingCardImg = '';
   waitingCardObject = {};
